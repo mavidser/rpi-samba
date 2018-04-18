@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --no-cache -t dastrasmue/rpi-samba:v3 .
+dkr build --no-cache -t mavidser/rpi-samba:latest .

@@ -83,7 +83,6 @@ EOH
         IFS=: read sharename sharepath readwrite users <<<"$OPTARG"
         echo -n "'$sharename' "
         echo "[$sharename]" >>"$CONFIG_FILE"
-        chown smbuser "$sharepath"
         echo -n "path '$sharepath' "
         echo "path = \"$sharepath\"" >>"$CONFIG_FILE"
         echo -n "read"
